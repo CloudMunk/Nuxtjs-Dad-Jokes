@@ -2,7 +2,7 @@
     <div>
         <form @submit.prevent="onSubmit">
             <input type="text" v-model="text" placeholder="Search jokes">
-            <input type="submit" value="Seacr Jokes">
+            <input type="submit" value="Search Jokes">
         </form>
     </div>
 </template>
